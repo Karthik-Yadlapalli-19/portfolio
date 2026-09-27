@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Karthik Yadlapalli</title>
-<meta name="description" content="Karthik Yadlapalli, Senior Software Engineer building iOS and Flutter apps. A 3D tour of his desk.">
+<title>Karthik's Desk</title>
+<meta name="description" content="Karthik Yadlapalli builds iOS and Flutter apps and the backends behind them. A 3D tour of his desk.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -139,7 +139,7 @@
 <header class="bar">
   <a class="logo" href="#intro" data-go="0">karthik<span>.</span>dev</a>
   <nav class="nav mono" aria-label="Desk tour">
-    <a href="#about" data-go="1">About</a><a href="#work" data-go="2">Work</a><a href="#apps" data-go="3">Apps</a><a href="#toolkit" data-go="4">Toolkit</a><a href="#contact" data-go="5">Contact</a>
+    <a href="#about" data-go="1">About</a><a href="#work" data-go="2">Build</a><a href="#apps" data-go="3">Apps</a><a href="#toolkit" data-go="4">Toolkit</a><a href="#contact" data-go="5">Contact</a>
   </nav>
 </header>
 <div class="where mono" aria-hidden="true"><span id="whereN">1/6</span><i id="whereBar"></i><b id="whereT">The desk</b></div>
@@ -147,7 +147,7 @@
 <main>
   <section class="stop intro" id="intro">
     <div>
-      <div class="eyebrow mono">Senior Software Engineer · Aqua Exchange · Hyderabad</div>
+      <div class="eyebrow mono">iOS · Flutter · Backend</div>
       <h1><span>Karthik</span><span>Yadlapalli<em>.</em></span></h1>
       <p>I build <strong>iOS and Flutter apps</strong> from the screen down to the database. This is my desk. Scroll to walk up to it, or click anything on it.</p>
       <span class="scrollcue mono"><i></i>Scroll to explore</span>
@@ -158,37 +158,23 @@
     <div class="panel">
       <p class="mark mono">// MARK: - <i>About</i></p>
       <h2>Mobile engineer who also writes the backend.</h2>
-      <p>SwiftUI and Dart up front, Spring Boot, Node.js and PostgreSQL behind. Most of my work is in AgriTech, for people who use it in the field every day.</p>
-      <div class="role">
-        <h3>Senior Software Engineer</h3>
-        <div class="meta mono">Aqua Exchange · AgriTech <span class="now">CURRENT</span></div>
-        <p>Aqua farm monitoring, IoT equipment control and helpdesk features across native iOS and Flutter.</p>
-      </div>
-      <div class="role">
-        <h3>Associate Engineer</h3>
-        <div class="meta mono">Nooor Technologies · from Jul 2022</div>
-        <p>Started as an iOS development intern (Jul – Dec 2022), then built production SwiftUI apps.</p>
-      </div>
+      <p>SwiftUI and Dart up front; Spring Boot, Node.js and PostgreSQL behind. I like knowing how every part of an app fits together, from the first screen to the database.</p>
       <div class="stats">
-        <div><b>3.6<em>y</em></b><span>shipping mobile software</span></div>
-        <div><b>5</b><span>production systems</span></div>
-        <div><b>3</b><span>platforms: Android, iOS, web</span></div>
+        <div><b>iOS</b><span>native, in SwiftUI</span></div>
+        <div><b>Flutter</b><span>Android and iOS from one codebase</span></div>
+        <div><b>APIs</b><span>Spring Boot, Node.js, Python</span></div>
       </div>
     </div>
   </section>
 
   <section class="stop" id="work">
     <div class="panel">
-      <p class="mark mono">// MARK: - <i>Work</i></p>
-      <h2>Shipped in production.</h2>
-      <div class="feature">
-        <h3>AquaExchange App</h3>
-        <p>A SwiftUI field app for aqua farmers: live farm readings, remote IoT equipment control, and an in-app helpdesk with chat and calling.</p>
-      </div>
-      <p class="label mono">Also shipped</p>
-      <div class="chips">
-        <span class="chip">Next Farm · agri-commerce</span><span class="chip">Semanoor · education</span><span class="chip">IMS · offline-first</span><span class="chip">Nextvue Processing Plant</span><span class="chip">Nextvue Planner</span><span class="chip">PumpMon</span><span class="chip">Liquid Application</span>
-      </div>
+      <p class="mark mono">// MARK: - <i>What I build</i></p>
+      <h2>Four layers, one app.</h2>
+      <div class="role"><h3>Interface</h3><p>SwiftUI and Flutter screens, motion, glass effects, design systems.</p></div>
+      <div class="role"><h3>Architecture</h3><p>Clean Architecture, @Observable and BLoC, Swift Concurrency with actors.</p></div>
+      <div class="role"><h3>Backend</h3><p>Spring Boot REST APIs with JWT, Node.js and Python services, PostgreSQL and Supabase.</p></div>
+      <div class="role"><h3>Device</h3><p>MapKit, HealthKit, Keychain, push notifications, live voice and a local LLM.</p></div>
     </div>
   </section>
 
@@ -198,13 +184,13 @@
       <h2>Built on my own time.</h2>
       <p>Tap one to put it on the phone.</p>
       <ul class="apps" id="appList">
-        <li><button type="button" id="pick-spotted" data-app="1" aria-pressed="false"><span class="g" style="background:#FF8F6B">S</span><span><b>Spotted</b><small>Hyperlocal discovery · SwiftUI, Spring Boot, PostgreSQL</small></span><span class="st">BUILDING</span></button></li>
+        <li><button type="button" id="pick-spotted" data-app="1" aria-pressed="true"><span class="g" style="background:#FF8F6B">S</span><span><b>Spotted</b><small>Hyperlocal discovery · SwiftUI, Spring Boot, PostgreSQL</small></span><span class="st">BUILDING</span></button></li>
         <li><button type="button" id="pick-nora" data-app="2" aria-pressed="false"><span class="g" style="background:#B9A7FF">N</span><span><b>NoraChat</b><small>Chat with a local Qwen model · SwiftUI, Python</small></span><span class="st">BUILDING</span></button></li>
         <li><button type="button" id="pick-airpath" data-app="3" aria-pressed="false"><span class="g" style="background:#7FB7FF">A</span><span><b>AirPath</b><small>Flight booking, four cabin classes · SwiftUI</small></span><span class="st">BUILDING</span></button></li>
         <li><button type="button" id="pick-splitpay" data-app="4" aria-pressed="false"><span class="g" style="background:#9BE38A">₹</span><span><b>SplitPay</b><small>Expense splitting · Flutter, PostgreSQL</small></span><span class="st">INDIE</span></button></li>
-        <li><button type="button" id="pick-aqua" data-app="0" aria-pressed="true"><span class="g" style="background:#5CCFC0">≈</span><span><b>AquaExchange</b><small>The work app, for comparison</small></span><span class="st">LIVE</span></button></li>
+        <li><button type="button" id="pick-liva" data-app="0" aria-pressed="false"><span class="g" style="background:#FF9FC4">L</span><span><b>Liva</b><small>Offline-first health companion · HealthKit</small></span><span class="st">INDIE</span></button></li>
       </ul>
-      <p class="label mono">Also: Faux, a real-time party game (Agora) · Liva, an offline-first HealthKit companion</p>
+      <p class="label mono">Also: Faux, a real-time party game with live voice (Agora)</p>
     </div>
   </section>
 
@@ -225,7 +211,7 @@
     <div class="panel">
       <p class="mark mono">// MARK: - <i>Contact</i></p>
       <h2>Let's build the next one<em>.</em></h2>
-      <p>Open to Flutter and iOS roles in Hyderabad, Bangalore and Chennai.</p>
+      <p>Have an app in mind? I can take it from the first screen to the database.</p>
       <div class="mail"><code id="email">1901.karthik@gmail.com</code><button class="btn primary" id="copy" type="button">Copy email</button></div>
       <div class="links">
         <a class="btn" href="https://github.com/karthik-yadlapalli-19" target="_blank" rel="noopener">GitHub ↗</a>
@@ -411,13 +397,13 @@ const bezel = mesh(rbox(.64, .375, .026, .008), darkAlu); bezel.position.set(0, 
 const monScreen = new THREE.Mesh(new THREE.PlaneGeometry(.612, .3443), new THREE.MeshBasicMaterial({ map: monTex, toneMapped: false, color: new THREE.Color(.92, .92, .92) }));
 monScreen.position.set(0, .32, .0135); monitor.add(monScreen);
 tagStop(monitor, 1);
-const monLight = new THREE.RectAreaLight('#bfe0ff', 3.2, .6, .34); monLight.position.set(0.12, T + .32, -0.38); monLight.lookAt(0.12, T + .32, 2); scene.add(monLight);
+const monLight = new THREE.RectAreaLight('#bfe0ff', 1.4, .6, .34); monLight.position.set(0.12, T + .32, -0.38); monLight.lookAt(0.12, T + .32, 2); scene.add(monLight);
 
 /* ---------------- MacBook ---------------- */
 const MB = { w: 1024, h: 642 };
 const mbTex = canvasTex(MB.w, MB.h, () => {});
 const mac = new THREE.Group(); mac.position.set(-0.5, T, -0.1); mac.rotation.y = .38; scene.add(mac);
-const silver = std({ color: '#c6c9cd', roughness: .3, metalness: .9, envMapIntensity: .75 });
+const silver = std({ color: '#bfc2c6', roughness: .45, metalness: .85, envMapIntensity: .4 });
 const mbBase = mesh(rbox(.31, .012, .215, .005), silver); mbBase.position.y = .006; mac.add(mbBase);
 const keysTex = canvasTex(512, 220, (x, w, h) => {
   x.fillStyle = '#111214'; x.fillRect(0, 0, w, h);
@@ -425,39 +411,50 @@ const keysTex = canvasTex(512, 220, (x, w, h) => {
   for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) { x.fillStyle = '#1d1f22'; x.beginPath(); x.roundRect(c * kw + 3, r * kh + 4, kw - 6, kh - 6, 5); x.fill(); }
 });
 const kb = new THREE.Mesh(new THREE.PlaneGeometry(.27, .105), std({ map: keysTex, roughness: .7 })); kb.rotation.x = -Math.PI / 2; kb.position.set(0, .0122, -.035); mac.add(kb);
-const pad = new THREE.Mesh(new THREE.PlaneGeometry(.13, .075), std({ color: '#b3b6ba', roughness: .25, metalness: .6 })); pad.rotation.x = -Math.PI / 2; pad.position.set(0, .0122, .06); mac.add(pad);
+const pad = new THREE.Mesh(new THREE.PlaneGeometry(.13, .075), std({ color: '#a9acb0', roughness: .55, metalness: .3, envMapIntensity: .3 })); pad.rotation.x = -Math.PI / 2; pad.position.set(0, .0122, .06); mac.add(pad);
 const hinge = new THREE.Group(); hinge.position.set(0, .012, -.1075); hinge.rotation.x = -.26; mac.add(hinge);
 const lid = mesh(rbox(.31, .205, .006, .0028), silver); lid.position.set(0, .1025, .003); hinge.add(lid);
 const lidBezel = new THREE.Mesh(new THREE.PlaneGeometry(.304, .199), new THREE.MeshStandardMaterial({ color: '#050506', roughness: .15 })); lidBezel.position.set(0, .1025, .0062); hinge.add(lidBezel);
 const mbScreen = new THREE.Mesh(new THREE.PlaneGeometry(.288, .1805), new THREE.MeshBasicMaterial({ map: mbTex, toneMapped: false, color: new THREE.Color(.9, .9, .9) }));
 mbScreen.position.set(0, .106, .0064); hinge.add(mbScreen);
 tagStop(mac, 2);
-const macLight = new THREE.PointLight('#9fd8ff', .35, .6, 2); macLight.position.set(0, .12, .06); hinge.add(macLight);
+const macLight = new THREE.PointLight('#9fd8ff', .05, .6, 2); macLight.position.set(0, .12, .06); hinge.add(macLight);
 
 /* ---------------- iPhone on a stand ---------------- */
 const PH = { w: 600, h: 1282 };
 const phTex = canvasTex(PH.w, PH.h, () => {});
 const stand = new THREE.Group(); stand.position.set(0.47, T, -0.17); stand.rotation.y = -.42; scene.add(stand);
-const standMat = std({ color: '#2d3336', roughness: .4, metalness: .85 });
+const standMat = std({ color: '#2d3336', roughness: .55, metalness: .7, envMapIntensity: .4 });
 const sBase = mesh(rbox(.085, .01, .075, .003), standMat); sBase.position.y = .005; stand.add(sBase);
 const tilt = new THREE.Group(); tilt.position.set(0, .01, .01); tilt.rotation.x = -.26; stand.add(tilt);
 const plate = mesh(rbox(.06, .1, .006, .002), standMat); plate.position.set(0, .05, -.006); tilt.add(plate);
 const lip = mesh(rbox(.078, .012, .012, .003), standMat); lip.position.set(0, .004, .009); tilt.add(lip);
-const titanium = std({ color: '#7d7a74', roughness: .28, metalness: .95, envMapIntensity: .8 });
-const phone = mesh(rbox(.0715, .147, .0082, .0040, 4), titanium); phone.position.set(0, .0775, .005); tilt.add(phone);
-const phGlass = new THREE.Mesh(new THREE.PlaneGeometry(.0695, .145), new THREE.MeshStandardMaterial({ color: '#030304', roughness: .05 })); phGlass.position.set(0, .0775, .0092); tilt.add(phGlass);
+const titanium = std({ color: '#7d7a74', roughness: .38, metalness: .95, envMapIntensity: .5 });
+// rounded-rectangle outline with true circular corners, like an iPhone
+function roundRect(w, h, r) {
+  const s = new THREE.Shape(), x = -w / 2, y = -h / 2;
+  s.moveTo(x + r, y); s.lineTo(x + w - r, y); s.absarc(x + w - r, y + r, r, -Math.PI / 2, 0);
+  s.lineTo(x + w, y + h - r); s.absarc(x + w - r, y + h - r, r, 0, Math.PI / 2);
+  s.lineTo(x + r, y + h); s.absarc(x + r, y + h - r, r, Math.PI / 2, Math.PI);
+  s.lineTo(x, y + r); s.absarc(x + r, y + r, r, Math.PI, Math.PI * 1.5);
+  return s;
+}
+const phoneGeo = new THREE.ExtrudeGeometry(roundRect(.0695, .145, .0105), { depth: .0062, bevelEnabled: true, bevelThickness: .001, bevelSize: .001, bevelSegments: 6, curveSegments: 32 });
+phoneGeo.translate(0, 0, -.0031);
+const phone = mesh(phoneGeo, titanium); phone.position.set(0, .0775, .005); tilt.add(phone);
+const phGlass = new THREE.Mesh(new THREE.ShapeGeometry(roundRect(.0695, .145, .0102), 32), new THREE.MeshStandardMaterial({ color: '#030304', roughness: .05 })); phGlass.position.set(0, .0775, .0092); tilt.add(phGlass);
 const phScreen = new THREE.Mesh(new THREE.PlaneGeometry(.0665, .1421), new THREE.MeshBasicMaterial({ map: phTex, toneMapped: false, transparent: true, color: new THREE.Color(.95, .95, .95) }));
 phScreen.position.set(0, .0775, .0094); tilt.add(phScreen);
 tagStop(stand, 3);
-const phLight = new THREE.PointLight('#bfe8ff', .12, .25, 2); phLight.position.set(0, .08, .05); tilt.add(phLight);
+const phLight = new THREE.PointLight('#bfe8ff', .02, .25, 2); phLight.position.set(0, .08, .05); tilt.add(phLight);
 
 /* ---------------- keyboard + mouse ---------------- */
 const kbd = new THREE.Group(); kbd.position.set(0.1, T, 0.04); scene.add(kbd);
 const kbBase = mesh(rbox(.36, .016, .125, .005), std({ color: '#2b3034', roughness: .45, metalness: .7 })); kbBase.position.y = .008; kbd.add(kbBase);
 const keyGeo = rbox(.0178, .009, .0178, .003, 2);
-const keyMat = std({ color: '#ffffff', roughness: .55 });
+const keyMat = std({ color: '#ffffff', roughness: .8, envMapIntensity: .15 });
 const keys = new THREE.InstancedMesh(keyGeo, keyMat, 75); keys.castShadow = true; keys.receiveShadow = true;
-const dummy = new THREE.Object3D(), cLight = new THREE.Color('#e8e4dc'), cMod = new THREE.Color('#aaa69e'), cAcc = new THREE.Color('#FF8F6B'), cTide = new THREE.Color('#5CCFC0');
+const dummy = new THREE.Object3D(), cLight = new THREE.Color('#c7c2b8'), cMod = new THREE.Color('#aaa69e'), cAcc = new THREE.Color('#FF8F6B'), cTide = new THREE.Color('#5CCFC0');
 let ki = 0;
 for (let r = 0; r < 5; r++) for (let c = 0; c < 15; c++) {
   if (r === 4 && c >= 5 && c <= 9) continue;
@@ -467,7 +464,7 @@ for (let r = 0; r < 5; r++) for (let c = 0; c < 15; c++) {
 }
 keys.count = ki; kbd.add(keys);
 const space = mesh(rbox(.11, .009, .0178, .003), std({ color: '#aaa69e', roughness: .55 })); space.position.set(-0.1575 + 7 * .0225, .0205, .045); kbd.add(space);
-const mouse = mesh(new THREE.SphereGeometry(1, 32, 16), std({ color: '#bdbab4', roughness: .5 })); mouse.scale.set(.032, .016, .058); mouse.position.set(0.38, T + .004, 0.05); scene.add(mouse);
+const mouse = mesh(new THREE.SphereGeometry(1, 32, 16), std({ color: '#bdbab4', roughness: .65, envMapIntensity: .2 })); mouse.scale.set(.032, .016, .058); mouse.position.set(0.38, T + .004, 0.05); scene.add(mouse);
 
 /* ---------------- mug with steam ---------------- */
 const mug = new THREE.Group(); mug.position.set(0.66, T, 0.03); scene.add(mug);
@@ -509,10 +506,10 @@ head.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), lampDir.clone().n
 const bulb = new THREE.Mesh(new THREE.SphereGeometry(.024, 20, 16), new THREE.MeshStandardMaterial({ color: '#fff3e0', emissive: '#ffcf96', emissiveIntensity: 6 }));
 bulb.position.copy(lp2).addScaledVector(lampDir, .07); lamp.add(bulb);
 tagStop(lamp, 5);
-const spot = new THREE.SpotLight('#ffd1a0', 7, 0, .78, .75, 2);
+const spot = new THREE.SpotLight('#ffd1a0', 4.2, 0, .78, .75, 2);
 spot.position.copy(lp2).addScaledVector(lampDir, .08); spot.target.position.copy(lampTarget); scene.add(spot, spot.target);
 spot.castShadow = true; spot.shadow.mapSize.set(isSmall() ? 1024 : 2048, isSmall() ? 1024 : 2048); spot.shadow.bias = -0.0004; spot.shadow.normalBias = .01; spot.shadow.camera.near = .05; spot.shadow.camera.far = 3;
-const lampGlow = new THREE.PointLight('#ffb880', .5, 1.4, 2); lampGlow.position.copy(bulb.position); scene.add(lampGlow);
+const lampGlow = new THREE.PointLight('#ffb880', .22, 1.4, 2); lampGlow.position.copy(bulb.position); scene.add(lampGlow);
 
 /* ---------------- shelf + books ---------------- */
 const shelf = new THREE.Group(); scene.add(shelf);
@@ -543,7 +540,7 @@ const posterTex = canvasTex(600, 800, (x, w, h) => {
   for (let k = 1; k < 16; k++) { x.globalAlpha = 1 - k / 18; x.beginPath(); x.ellipse(w / 2, 330, k * 18, k * 11, 0, 0, 7); x.stroke(); }
   x.globalAlpha = 1; x.fillStyle = '#FF8F6B'; x.beginPath(); x.arc(w / 2, 330, 9, 0, 7); x.fill();
   x.fillStyle = '#1c3a42'; x.font = '800 92px "Bricolage Grotesque", "Avenir Next", sans-serif'; x.textAlign = 'center'; x.fillText('TANUKU', w / 2, 640);
-  x.font = '500 22px "JetBrains Mono", monospace'; x.fillText('16.75° N · 81.68° E', w / 2, 686); x.fillStyle = '#8a8274'; x.fillText('→ HYDERABAD', w / 2, 722);
+  x.font = '500 22px "JetBrains Mono", monospace'; x.fillText('16.75° N · 81.68° E', w / 2, 686); x.fillStyle = '#8a8274'; 
 });
 const frame = mesh(rbox(.34, .44, .02, .004), lampMat); frame.position.set(0.5, 1.64, -0.608); scene.add(frame);
 const print = new THREE.Mesh(new THREE.PlaneGeometry(.29, .386), std({ map: posterTex, roughness: .85 })); print.position.set(0.5, 1.64, -0.597); scene.add(print);
@@ -586,10 +583,8 @@ const CODE = [
   'import SwiftUI',
   '',
   'struct Karthik: Engineer {',
-  '    let role = "Senior Software Engineer"',
-  '    let company = "Aqua Exchange"',
-  '    let base = "Hyderabad, IN"',
-  '    let years = 3.6',
+  '    let platforms = [.iOS, .android, .web]',
+  '    let habit = "Understand the why first"',
   '',
   '    var stack: [Skill] {',
   '        [.swiftUI, .flutter, .springBoot,',
@@ -627,7 +622,7 @@ function drawMonitor(t) {
   rr(x, W - 280, 9, 260, 22, 6, '#1f2124'); tx(x, 'Build Succeeded  |  Today at 9:41', W - 150, 25, 12, '#9aa3aa', 500, 'center', F.m);
   // sidebar
   x.fillStyle = '#26282c'; x.fillRect(0, 40, 190, H - 40); x.fillStyle = '#34373c'; x.fillRect(190, 40, 1, H - 40);
-  const files = [['▾ Karthik', 0, '#dfe6e8'], ['▾ Sources', 1, '#dfe6e8'], ['Karthik.swift', 2, '#fff'], ['Experience.swift', 2, '#aab0b6'], ['Apps.swift', 2, '#aab0b6'], ['Toolkit.swift', 2, '#aab0b6'], ['▸ Backend', 1, '#aab0b6'], ['▸ Resources', 1, '#aab0b6']];
+  const files = [['▾ Karthik', 0, '#dfe6e8'], ['▾ Sources', 1, '#dfe6e8'], ['Karthik.swift', 2, '#fff'], ['Interface.swift', 2, '#aab0b6'], ['Apps.swift', 2, '#aab0b6'], ['Toolkit.swift', 2, '#aab0b6'], ['▸ Backend', 1, '#aab0b6'], ['▸ Resources', 1, '#aab0b6']];
   files.forEach(([n, d, c], i) => { const y = 72 + i * 26; if (i === 2) rr(x, 8, y - 17, 174, 24, 5, '#3d5a9c'); tx(x, n, 16 + d * 14, y, 13, c, 500, 'left', F.m); });
   // tab
   x.fillStyle = '#292a2f'; x.fillRect(191, 40, W - 191, 30); rr(x, 196, 44, 150, 24, 5, '#1f2124'); tx(x, 'Karthik.swift', 212, 61, 13, '#e6e6e6', 500, 'left', F.m);
@@ -659,34 +654,33 @@ function drawMac() {
   x.fillStyle = '#0F1D22'; x.fillRect(0, 0, W, H);
   x.fillStyle = '#1a2a30'; x.fillRect(0, 0, W, 46);
   ['#ff5f57', '#febc2e', '#28c840'].forEach((c, i) => { x.fillStyle = c; x.beginPath(); x.arc(22 + i * 20, 23, 6, 0, 7); x.fill(); });
-  rr(x, W / 2 - 170, 10, 340, 26, 8, '#0F1D22'); tx(x, 'karthik.dev/work', W / 2, 28, 14, '#9fb3b8', 500, 'center', F.m);
-  tx(x, '// MARK: - Work', 32, 92, 15, '#5CCFC0', 500, 'left', F.m);
-  tx(x, 'Shipped in production', 32, 140, 40, '#E6EEEE', 800, 'left', F.d);
-  const items = [['AquaExchange App', 'Farm monitoring, IoT', 'control, helpdesk', '#5CCFC0', '≈'], ['Next Farm', 'Agri-commerce with', 'payments and maps', '#9BE38A', 'N'], ['Semanoor', 'Classes, quizzes', 'and rankings', '#FFD166', 'S'], ['IMS', 'Offline-first, SwiftUI', '+ Spring Boot', '#7FB7FF', 'I'], ['Nextvue', 'Processing Plant', '', '#FF8F6B', 'N'], ['Nextvue', 'Planner', '', '#B9A7FF', 'N'], ['PumpMon', 'Production app', '', '#FF9FC4', 'P'], ['Liquid', 'Application', '', '#5CCFC0', 'L']];
-  const cw = 229, ch = 200, gx = 16, x0 = 32, y0 = 172;
+  rr(x, W / 2 - 170, 10, 340, 26, 8, '#0F1D22'); tx(x, 'karthik.dev/build', W / 2, 28, 14, '#9fb3b8', 500, 'center', F.m);
+  tx(x, '// MARK: - What I build', 32, 92, 15, '#5CCFC0', 500, 'left', F.m);
+  tx(x, 'Four layers, one app', 32, 140, 40, '#E6EEEE', 800, 'left', F.d);
+  const items = [['Interface', 'SwiftUI · Flutter', 'motion, design systems', '#FF8F6B', '01'], ['Architecture', 'Clean Architecture', 'BLoC · actors', '#5CCFC0', '02'], ['Backend', 'Spring Boot · Node.js', 'PostgreSQL · Supabase', '#9BE38A', '03'], ['Device', 'MapKit · HealthKit', 'live voice · local LLM', '#B9A7FF', '04']];
+  const cw = 466, ch = 200, gx = 28, x0 = 32, y0 = 172;
   items.forEach(([n, a, b, c, gl], i) => {
-    const X = x0 + (i % 4) * (cw + gx), Y = y0 + Math.floor(i / 4) * (ch + gx);
-    rr(x, X, Y, cw, ch, 16, '#16292F'); rr(x, X + 18, Y + 18, 44, 44, 11, c); tx(x, gl, X + 40, Y + 49, 22, '#0A1316', 800, 'center', F.d);
-    tx(x, n, X + 18, Y + 100, 22, '#E6EEEE', 700, 'left', F.d); tx(x, a, X + 18, Y + 132, 16, '#95ABB0'); if (b) tx(x, b, X + 18, Y + 154, 16, '#95ABB0');
-    rr(x, X + 18, Y + ch - 38, 92, 22, 11, 'rgba(92,207,192,.14)'); tx(x, 'LIVE', X + 64, Y + ch - 22, 11, '#5CCFC0', 500, 'center', F.m);
+    const X = x0 + (i % 2) * (cw + gx), Y = y0 + Math.floor(i / 2) * (ch + 16);
+    rr(x, X, Y, cw, ch, 18, '#16292F'); tx(x, gl, X + 26, Y + 48, 18, c, 500, 'left', F.m);
+    tx(x, n, X + 26, Y + 104, 34, '#E6EEEE', 800, 'left', F.d); tx(x, a, X + 26, Y + 144, 19, '#95ABB0'); tx(x, b, X + 26, Y + 172, 19, '#95ABB0');
   });
   mbTex.needsUpdate = true;
 }
 
 // ---- iPhone: app screens
 const PX = phTex.userData.ctx, SW = PH.w, SH = PH.h;
-function frameP(bg) { PX.clearRect(0, 0, SW, SH); PX.save(); rr(PX, 0, 0, SW, SH, 72); PX.clip(); PX.fillStyle = bg; PX.fillRect(0, 0, SW, SH); }
+function frameP(bg) { PX.clearRect(0, 0, SW, SH); PX.save(); rr(PX, 0, 0, SW, SH, 86); PX.clip(); PX.fillStyle = bg; PX.fillRect(0, 0, SW, SH); }
 function statusBar(fg) { tx(PX, '9:41', 62, 64, 26, fg, 600); rr(PX, SW / 2 - 82, 24, 164, 48, 24, '#000'); rr(PX, SW - 118, 46, 44, 20, 5, fg); }
 function tabBar(fg, accent, n, active) { rr(PX, 40, SH - 130, SW - 80, 92, 46, 'rgba(255,255,255,.08)'); for (let i = 0; i < n; i++) { const cx = 40 + (SW - 80) * (i + .5) / n; PX.beginPath(); PX.arc(cx, SH - 84, 14, 0, 7); PX.fillStyle = i === active ? accent : fg; PX.fill(); } }
 function endP() { PX.restore(); phTex.needsUpdate = true; }
 const D = (s, X, Y, size, c, a) => tx(PX, s, X, Y, size, c, 800, a || 'left', F.d);
 const B = (s, X, Y, size, c, w, a) => tx(PX, s, X, Y, size, c, w || 500, a || 'left');
 const APPS = [
-  () => { frameP('#0C1B20'); statusBar('#E4ECEC'); B('Pond 3 · Live', 50, 160, 26, '#8CA3A8'); D('Farm readings', 50, 215, 50, '#E4ECEC');
-    [['Dissolved O₂', '5.8', 'mg/L', '#5CCFC0', .72], ['pH', '7.9', '', '#FF8F6B', .62], ['Water temp', '29.4', '°C', '#FFD166', .55], ['Salinity', '14', 'ppt', '#7FB7FF', .4]].forEach((r, i) => { const y = 260 + i * 136; rr(PX, 40, y, SW - 80, 118, 26, '#14262C'); B(r[0], 70, y + 44, 24, '#8CA3A8'); D(r[1], 70, y + 94, 42, '#E4ECEC'); PX.font = `800 42px ${F.d}`; B(r[2], 70 + PX.measureText(r[1]).width + 12, y + 94, 22, '#8CA3A8'); rr(PX, 330, y + 52, 200, 14, 7, '#1F353C'); rr(PX, 330, y + 52, 200 * r[4], 14, 7, r[3]); });
-    const y = 820; rr(PX, 40, y, SW - 80, 150, 26, '#14262C'); B('Aerator 2', 70, y + 58, 28, '#E4ECEC', 600); B('Running · 6h 12m', 70, y + 100, 22, '#5CCFC0'); rr(PX, SW - 170, y + 46, 100, 58, 29, '#5CCFC0'); PX.beginPath(); PX.arc(SW - 99, y + 75, 23, 0, 7); PX.fillStyle = '#0C1B20'; PX.fill();
-    tabBar('#3C5A61', '#5CCFC0', 4, 0); endP(); },
-  () => { frameP('#FFF6F1'); statusBar('#1A0E0A'); D('Near you', 50, 180, 56, '#1A0E0A'); B('Madhapur, Hyderabad', 50, 222, 24, '#8A6F66');
+  () => { frameP('#15101A'); statusBar('#F3EAF6'); D('Today', 50, 190, 60, '#F3EAF6'); B('Works offline · syncs later', 50, 234, 24, '#B5A6C0');
+    [[190, .78, '#FF9FC4'], [140, .6, '#5CCFC0'], [90, .42, '#FFD166']].forEach(([r, f, c]) => { PX.lineWidth = 36; PX.lineCap = 'round'; PX.strokeStyle = c + '33'; PX.beginPath(); PX.arc(SW / 2, 520, r, 0, 7); PX.stroke(); PX.strokeStyle = c; PX.beginPath(); PX.arc(SW / 2, 520, r, -Math.PI / 2, -Math.PI / 2 + f * Math.PI * 2); PX.stroke(); });
+    [['Move', '420 / 540 kcal'], ['Steps', '6,120'], ['Sleep', '7 h 10 m']].forEach(([a, b], i) => { const y = 780 + i * 104; rr(PX, 40, y, SW - 80, 88, 22, '#221A28'); B(a, 70, y + 56, 26, '#F3EAF6', 600); B(b, SW - 70, y + 56, 24, '#C9BCD6', 500, 'right'); });
+    endP(); },
+  () => { frameP('#FFF6F1'); statusBar('#1A0E0A'); D('Near you', 50, 180, 56, '#1A0E0A'); B('Within 2 km', 50, 222, 24, '#8A6F66');
     rr(PX, 40, 260, SW - 80, 380, 30, '#FFE3D6'); PX.save(); rr(PX, 40, 260, SW - 80, 380, 30); PX.clip(); PX.strokeStyle = '#FFCDB8'; PX.lineWidth = 14;
     [[40, 390, 560, 340], [200, 260, 260, 640], [40, 540, 560, 580], [420, 260, 380, 640]].forEach(l => { PX.beginPath(); PX.moveTo(l[0], l[1]); PX.lineTo(l[2], l[3]); PX.stroke(); });
     [[160, 350], [330, 460], [450, 370], [250, 560]].forEach(([X, Y], i) => { PX.beginPath(); PX.arc(X, Y, i === 1 ? 26 : 18, 0, 7); PX.fillStyle = i === 1 ? '#FF8F6B' : '#1A0E0A'; PX.fill(); PX.beginPath(); PX.arc(X, Y, 7, 0, 7); PX.fillStyle = '#FFF6F1'; PX.fill(); }); PX.restore();
@@ -697,7 +691,7 @@ const APPS = [
     bub(['Plan my Swift', 'concurrency revision'], true, 260, 114); bub(['Sure. Three blocks:', '1. async/await basics', '2. Tasks and TaskGroups', '3. Actors and isolation'], false, 402, 182); bub(['Quiz me on actors'], true, 612, 80); bub(['Why does an actor', 'method need await', 'from outside?'], false, 720, 148);
     rr(PX, 40, SH - 150, SW - 80, 86, 43, '#1E1C2B'); B('Message Nora', 80, SH - 98, 24, '#6C6789'); PX.beginPath(); PX.arc(SW - 86, SH - 107, 28, 0, 7); PX.fillStyle = '#B9A7FF'; PX.fill(); endP(); },
   () => { frameP('#0B1426'); statusBar('#E8F0FF'); D('Where to?', 50, 180, 56, '#E8F0FF'); rr(PX, 40, 220, SW - 80, 240, 30, '#14213A');
-    B('FROM', 74, 272, 20, '#7F92B5', 600); D('HYD', 74, 328, 52, '#E8F0FF'); B('Hyderabad', 74, 362, 22, '#7F92B5'); B('TO', SW - 74, 272, 20, '#7F92B5', 600, 'right'); D('BLR', SW - 74, 328, 52, '#E8F0FF', 'right'); B('Bengaluru', SW - 74, 362, 22, '#7F92B5', 400, 'right');
+    B('FROM', 74, 272, 20, '#7F92B5', 600); D('DEL', 74, 328, 52, '#E8F0FF'); B('Delhi', 74, 362, 22, '#7F92B5'); B('TO', SW - 74, 272, 20, '#7F92B5', 600, 'right'); D('GOI', SW - 74, 328, 52, '#E8F0FF', 'right'); B('Goa', SW - 74, 362, 22, '#7F92B5', 400, 'right');
     PX.strokeStyle = '#7FB7FF'; PX.setLineDash([8, 10]); PX.lineWidth = 3; PX.beginPath(); PX.moveTo(230, 310); PX.quadraticCurveTo(SW / 2, 260, 370, 310); PX.stroke(); PX.setLineDash([]); B('Thu, 8 Oct · 1 adult', 74, 424, 22, '#E8F0FF');
     ['Economy', 'Business', 'Premium', 'Luxury'].forEach((c, i) => { const X = 40 + i * 132, w = 122; rr(PX, X, 490, w, 58, 29, i === 1 ? '#7FB7FF' : '#14213A'); B(c, X + w / 2, 527, 19, i === 1 ? '#0B1426' : '#B7C6E2', 600, 'center'); });
     [['6E 511', '06:10 → 07:20', '₹4,820'], ['AI 544', '09:45 → 10:55', '₹5,390'], ['QP 1302', '13:30 → 14:40', '₹4,410']].forEach((r, i) => { const y = 580 + i * 118; rr(PX, 40, y, SW - 80, 102, 24, '#14213A'); B(r[0], 70, y + 42, 22, '#7F92B5', 600); B(r[1], 70, y + 80, 26, '#E8F0FF', 600); D(r[2], SW - 70, y + 68, 32, '#7FB7FF', 'right'); });
@@ -708,7 +702,7 @@ const APPS = [
     [['Villa booking', 'Rahul paid', '₹18,000', '#FFD166'], ['Dinner by the beach', 'You paid', '₹4,200', '#9BE38A'], ['Scooter rental', 'Anu paid', '₹1,500', '#FF8F6B'], ['Groceries', 'You paid', '₹960', '#7FB7FF']].forEach((r, i) => { const y = 462 + i * 114; rr(PX, 40, y, SW - 80, 98, 24, '#161C16'); rr(PX, 62, y + 20, 58, 58, 16, r[3]); B(r[0], 138, y + 45, 25, '#EAF3E6', 600); B(r[1], 138, y + 78, 21, '#8FA38A'); B(r[2], SW - 66, y + 62, 25, '#EAF3E6', 600, 'right'); });
     rr(PX, 60, SH - 138, SW - 120, 96, 48, 'rgba(255,255,255,.07)'); for (let i = 0; i < 4; i++) { PX.beginPath(); PX.arc(60 + (SW - 120) * (i + .5) / 4, SH - 90, 14, 0, 7); PX.fillStyle = i === 0 ? '#9BE38A' : '#3A463A'; PX.fill(); } endP(); },
 ];
-let currentApp = 0;
+let currentApp = 1;
 function showApp(i) {
   currentApp = i; APPS[i]();
   document.querySelectorAll('#appList button').forEach(b => b.setAttribute('aria-pressed', +b.dataset.app === i ? 'true' : 'false'));
@@ -762,7 +756,7 @@ addEventListener('click', e => { pointer.set(e.clientX / innerWidth * 2 - 1, -(e
 /* ================= render ================= */
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene, camera));
-const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), .45, .55, .96); composer.addPass(bloom);
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), .22, .4, .99); composer.addPass(bloom);
 composer.addPass(new OutputPass());
 
 let W = 0, H = 0;
